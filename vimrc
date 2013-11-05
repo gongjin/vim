@@ -225,11 +225,10 @@ nmap fg :Dox<CR>
 "(普通模式：ff自动生成文件说明)
 nmap ff ::DoxAthor   
 
-let g:DoxygenToolkit_authorName="@Author"
-let g:DoxygenToolkit_licenseTag="My own license\<enter>"
-let g:DoxygenToolkit_briefTag_pre="@Synopsis  "
-let g:DoxygenToolkit_paramTag_pre="@Param"
-let g:DoxygenToolkit_returnTag="@Returns  "
+let g:DoxygenToolkit_authorName="@Author="
+let g:DoxygenToolkit_briefTag_pre="@Synopsis=  "
+let g:DoxygenToolkit_paramTag_pre="@Param= "
+let g:DoxygenToolkit_returnTag="@Returns=  "
 let   g:DoxygenToolkit_blockHeader="-------------------------------------------------------------------"
 let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
 
