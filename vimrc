@@ -220,8 +220,10 @@ let g:AutoPairsFlyMode=1   	"开启自动不全功能
 
 
 """DoxygenToolkit.vim 插件的配置
-nmap fg :Dox<cr>    "(普通模式:fg 生成函数说明)
-nmap ff ::DoxAthor   "(普通模式：ff自动生成文件说明)
+"(普通模式:fg 生成函数说明)
+nmap fg :Dox<CR>    
+"(普通模式：ff自动生成文件说明)
+nmap ff ::DoxAthor   
 
 let g:DoxygenToolkit_authorName="@Author"
 let g:DoxygenToolkit_licenseTag="My own license\<enter>"
