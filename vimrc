@@ -239,11 +239,6 @@ let g:UltiSnipsJumpBackwardTrigger="<S-tab>"  "向后跳 <shift+tab>
 
 
 
-"""auto-pairs插件配置
-let g:AutoPairsFlyMode=1   	"开启自动不全功能
-
-
-
 
 
 """DoxygenToolkit.vim 插件的配置
