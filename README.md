@@ -30,15 +30,9 @@
   
   10. $: _vim  +BundleInstall +qall_
 
-  11. $: _cd ~/.vim/bundle/YouCompleteMe_
+  11. 编译YouCompleteMe，参考：http://blog.csdn.net/linuxzbq/article/details/15505395 （在这篇博客中的安装ycm就可跳过）
 
-  12. $: _./install.sh --clang-completer_  (如果编译有误的话，查看你的vim7.3及以上版本，python2.x版，clang3.2以上才行，也许你可以看看[这里](http://www.cnblogs.com/scue/p/3234102.html))  
-
-  13. $: *cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/clang+llvm-3.2-x86_64-apple-darwin11 -DPYTHON_INCLUDE_DIR=/usr/local/Frameworks/Python.framework/Headers -DPYTHON_LIBRARY=/usr/local/Frameworks/Python.framework/Python . ~/.vim/bundle/YouCompleteMe/cpp*
-
-  14. $: _make_
-
-   
+ 
    **c.vim插件设置**<br\>
    其中如果你要改变 AUTHOR 和 COMPANY的值, 要修改模板文件 ~/.vim/c-support/templates/Templates <br \>
    $： vim ~/.vim/c-support/templates/Templates <br \>
