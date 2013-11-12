@@ -20,12 +20,13 @@
   
   5.安装vundle插件管理器  $: *git clone https://github.com/gmarik/vundle.git  ~/.vim/bundle/vundle*
 
-  6.clone配置文件 $: _cd ~/.vim/bundle/ && git clone https://github.com/zbqyexingkong/vim.git
-  7. $: _mv ~/.vim/bundle/vim/vimrc  ~/.vimrc_
-
-  8. $: _mv ~/.vim/bundle/vim/* ~/.vim/bundle/_
+  6.clone配置文件 $: _cd ~/ && git clone https://github.com/zbqyexingkong/vim.git_
   
-  9. $: _rm ~/vim/bundle/vim/ -fr_
+  7. $: _mv ~/vim/vimrc  ~/.vimrc_
+
+  8. $: _mv ~/vim/* ~/.vim/bundle/_
+  
+  9. $: _rm ~/vim/ -fr_
   
   10. $: _vim  +BundleInstall +qall_
 
